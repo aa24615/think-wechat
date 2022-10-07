@@ -1,25 +1,27 @@
 # thinkphp-wechat
 
 微信SDK For ThinkPHP 基于[overtrue/wechat](https://github.com/overtrue/wechat)  
-本分支在 [naixiaoxin/think-wechat](https://github.com/qiqizjl/think-wechat) 的基础做了版本的改进
+本分支在 [naixiaoxin/think-wechat](https://github.com/qiqizjl/think-wechat) 的基础做了版本的改进	
 命名空间不变,包名为 `zyan/think-wechat` 请勿同时安装
 
 ## 框架要求
 
-ThinkPHP5.1(中间件要求支持ThinkPHP5.1.6+)
-ThinkPHP6.x
+ThinkPHP5.1(中间件要求支持ThinkPHP5.1.6+)	
+ThinkPHP6.x(开发中...)
 
 ## 安装
 
 请选择您对应的 `thinkphp` 版本与 `overtrue/wechat` 版本
 
+overtrue/wechat 4.x && tp5.1
 ~~~
-#overtrue/wechat 4.x && tp5.1
 composer require "zyan/think-wechat:4.0" -vvv
+~~~
 
-#overtrue/wechat 5.x && tp5.1
+overtrue/wechat 5.x && tp5.1
+
+~~~
 composer require "zyan/think-wechat:5.0" -vvv
-
 ~~~
 
 ## 配置
@@ -115,8 +117,8 @@ $params['is_new']; // 是不是新的会话（第一次创建 session 时为 tru
 更多 SDK 的具体使用请参考：https://easywechat.com
 
 ## 参考项目
-- [laravel-wechat](https://raw.githubusercontent.com/overtrue/laravel-wechat)
-- [symfony-wechat](https://github.com/lilocon/WechatBundle)
+- [laravel-wechat](https://github.com/overtrue/laravel-wechat)
+- [symfony-wechat](https://github.com/lionxcc/WechatBundle)
 - [Yii2-wechat](https://github.com/jianyan74/yii2-easy-wechat)
 
 ## License

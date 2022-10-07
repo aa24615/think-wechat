@@ -1,7 +1,9 @@
 # thinkphp-wechat
 
 微信SDK For ThinkPHP 基于[overtrue/wechat](https://github.com/overtrue/wechat)  
-本分支在 [naixiaoxin/think-wechat](https://github.com/qiqizjl/think-wechat) 的基础做了版本的改进	
+
+本分支在 [naixiaoxin/think-wechat](https://github.com/qiqizjl/think-wechat) 的基础做了版本的改进		
+	
 命名空间不变,包名为 `zyan/think-wechat` 请勿同时安装
 
 ## 框架要求
